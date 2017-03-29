@@ -1,8 +1,6 @@
 import java.util.Hashtable;
 
-import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.Level;
-import org.apache.log4j.Logger;
+import org.apache.log4j.*;
 public class Calculator {
 	//use a hashtable to store variables for let statements
 	Hashtable<String, Double> variables = new Hashtable<String, Double>();
